@@ -1,0 +1,12 @@
+# .env
+# Database
+DATABASE_URL="postgresql+asyncpg://<username>:<password>$@localhost/<db_name>"
+
+# API Key (if you still want it for other services, though OAuth2 replaces it)
+API_KEY="my_secret_api_key_12345"
+
+# OAuth2 JWT Settings
+# Generate this with: openssl rand -hex 32
+JWT_SECRET_KEY="09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
+JWT_ALGORITHM="HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES=30
