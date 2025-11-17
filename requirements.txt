@@ -1,0 +1,10 @@
+fastapi[all]
+sqlmodel
+psycopg[asyncpg]
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+pytest
+pytest-asyncio
+httpx
+aiosqlite
